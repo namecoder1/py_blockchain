@@ -1,0 +1,19 @@
+[
+  {
+    "index": 0,
+    "timestamp": "2025-04-16T15:57:59.294214",
+    "transactions": [
+      {
+        "senderAddress": "genesis",
+        "receiverAddress": "none",
+        "amount": 0,
+        "fee": 0,
+        "timestamp": "2025-04-16T15:57:59.294207",
+        "note": "Genesis block"
+      }
+    ],
+    "prev_hash": "0",
+    "hash": "84368fb81bc526096df64dd005d3afeca4a31cd201bf05832a7d87f1e2ef3b3d",
+    "nonce": 0
+  }
+]
