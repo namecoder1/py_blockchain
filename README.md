@@ -33,6 +33,23 @@ cd py-blockchain
 uv pip install tabulate colorama
 ```
 
+## Running with Docker
+
+1. Build the Docker image:
+```bash
+docker build -t py-blockchain .
+```
+
+2. Run the container in interactive mode:
+```bash
+docker run -it py-blockchain
+```
+
+To persist blockchain data between runs, mount the blockchain_data.json file:
+```bash
+docker run -it -v $(pwd)/blockchain_data.json:/app/blockchain_data.json py-blockchain
+```
+
 ## Usage
 
 1. Start the application:
